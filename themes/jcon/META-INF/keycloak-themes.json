@@ -1,0 +1,12 @@
+{
+  "themes": [
+    {
+      "name": "jcon-email",
+      "types": ["email"]
+    },
+    {
+      "name": "jcon-login",
+      "types": ["login"]
+    }
+  ]
+}

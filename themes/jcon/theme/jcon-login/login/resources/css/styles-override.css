@@ -1,0 +1,10 @@
+:root {
+  --keycloak-bg-logo-url: url('../img/keycloak-bg.avif');
+  --keycloak-logo-url: url('../img/keycloak-logo-text.svg');
+  --keycloak-logo-height: 5em;
+  --keycloak-logo-width: 4em;
+}
+
+#kc-header-wrapper {
+  --pf-v5-c-login__header--c-brand--MarginBottom: 1.5rem;
+}

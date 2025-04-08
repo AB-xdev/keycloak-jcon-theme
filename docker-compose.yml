@@ -15,7 +15,7 @@ services:
         POSTGRES_PASSWORD: password
 
   keycloak:
-      image: quay.io/keycloak/keycloak:25.0.4
+      image: quay.io/keycloak/keycloak:26.1.4
       command:
         - start-dev
       container_name: keycloak_server
@@ -25,7 +25,7 @@ services:
         # Providers
         # - './providers:/opt/keycloak/providers'
         # Development theme folder
-        - './themes/custom-theme/theme:/opt/keycloak/themes'
+        - './themes/jcon/theme:/opt/keycloak/themes'
       depends_on:
         - postgres
       environment:
@@ -40,3 +40,9 @@ services:
         KEYCLOAK_ADMIN_PASSWORD: admin
         KC_HEALTH_ENABLED: "true"
         KC_LOG_LEVEL: info
+
+  maildev:
+    image: maildev/maildev
+    container_name: maildev
+    ports:
+      - 1080:1080
