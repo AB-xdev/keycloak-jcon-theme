@@ -8,3 +8,11 @@
 #kc-header-wrapper {
   --pf-v5-c-login__header--c-brand--MarginBottom: 1.5rem;
 }
+
+.pf-v5-c-login__main-header {
+  border-top: none;
+}
+
+.pf-v5-c-button.pf-m-secondary {
+  color: var(--pf-v5-c-button—-m-primary--Color);
+}
