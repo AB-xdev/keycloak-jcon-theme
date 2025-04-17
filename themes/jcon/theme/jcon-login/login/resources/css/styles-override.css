@@ -5,6 +5,10 @@
   --keycloak-logo-width: 4em;
 }
 
+#kc-header {
+  --pf-v5-c-login__header--xl--MarginTop: var(--pf-v5-global--spacer--md);
+}
+
 #kc-header-wrapper {
   --pf-v5-c-login__header--c-brand--MarginBottom: 1.5rem;
 }
