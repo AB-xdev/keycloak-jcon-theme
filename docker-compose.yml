@@ -15,7 +15,7 @@ services:
         POSTGRES_PASSWORD: password
 
   keycloak:
-      image: quay.io/keycloak/keycloak:26.1.4
+      image: quay.io/keycloak/keycloak:26.2.0
       command:
         - start-dev
       container_name: keycloak_server
