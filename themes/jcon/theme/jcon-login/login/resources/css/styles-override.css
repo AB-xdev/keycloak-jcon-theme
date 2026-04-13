@@ -20,3 +20,8 @@
 .pf-v5-c-button.pf-m-secondary {
   color: var(--pf-v5-c-button—-m-primary--Color);
 }
+
+#kc-form::before {
+  content: "\2139\FE0F Please note: Due to data protection/privacy reasons accounts are deleted after a few months!\A\A";
+  white-space: pre-wrap;
+}
